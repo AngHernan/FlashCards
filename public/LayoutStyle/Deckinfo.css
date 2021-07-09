@@ -1,0 +1,15 @@
+.right{
+    margin-left: auto;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+}
+.space{
+    margin: 0px 5px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }

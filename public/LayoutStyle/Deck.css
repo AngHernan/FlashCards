@@ -1,0 +1,19 @@
+.buttonSpacing{
+    margin: 2px 5px;
+}
+.buttonSpacing-1{
+    margin-left: 0px;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.cardTitle{
+    margin-top: 25px;
+}
+
