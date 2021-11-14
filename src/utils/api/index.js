@@ -70,7 +70,11 @@ async function fetchJson(url, options, onCancel) {
  *  a promise that resolves to a possibly empty array of decks saved in the database.
  */
 export async function listDecks(signal) {
+  console.log(process)
+  console.log(process.env)
+  console.log(process.env.REACT_APP_API_BASE_URL)
   const url = `${API_BASE_URL}/decks?_embed=cards`;
+  console.log(url)
   return await fetchJson(url, { signal }, []);
 }
 
